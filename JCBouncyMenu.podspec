@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/jfclifton/JCBouncyMenu"
-  s.screenshots      = ""
+  # s.screenshots      = ""
   s.license          = 'MIT'
   s.author           = { "Jordan Clifton" => "jfc1254@gmail.com" }
-  s.source           = { :git => "https://github.com/jfclifton/JCBouncyMenu.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/Jordan_Clifton'
+  s.source           = { :git => "https://github.com/jfclifton/JCBouncyMenu.git", :tag => "0.1.0" }
+  s.social_media_url = "https://twitter.com/Jordan_Clifton"
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
   s.resources = 'Assets/*.png'
 
   # s.public_header_files = 'Classes/**/*.h'
-  s.frameworks = 'pop'
+  # s.frameworks = 'pop'
   s.dependency 'pop', '~> 1.0'
 end

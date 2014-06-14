@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "JCBouncyMenu"
-  s.version          = File.read('VERSION')
+  s.version          = "0.1.0"
   s.summary          = "JCBouncyMenu provides a menu of buttons. Just give it an array of image names and a point and it will take it from there."
   s.description      = <<-DESC
                        JCBouncyMenu uses Facebook's Pop animation framework to provide some fun animations to its custom menu. 
